@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import {MdButtonModule, MdCheckboxModule, MdInputModule, MdRadioModule} from '@angular/material';
+import {MdButtonModule, MdCheckboxModule, MdInputModule, MdRadioModule, MdSelectModule} from '@angular/material';
 import { McComponent } from './mc/mc.component';
 import { TaskComponent } from './task/task.component';
 import { DndComponent } from './dnd/dnd.component';
@@ -15,6 +15,7 @@ import { SfComponent } from './sf/sf.component';
 import {DragulaModule} from 'ng2-dragula';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { GapComponent } from './gap/gap.component';
+import { LinfunComponent } from './linfun/linfun.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { GapComponent } from './gap/gap.component';
     TaskFooterComponent,
     DropdownComponent,
     GapComponent,
+    LinfunComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import { GapComponent } from './gap/gap.component';
     MdRadioModule,
     FormsModule,
     MdInputModule,
-    DragulaModule
+    DragulaModule,
+    MdSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

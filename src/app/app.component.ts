@@ -37,6 +37,10 @@ export class AppComponent {
     type: 'dropdown',
     description: 'dropdown',
     title: 'dropdown'
+  }, {
+    type: 'linfun',
+    description: 'Linear function',
+    title: 'Plot linear function'
   }];
 
 
