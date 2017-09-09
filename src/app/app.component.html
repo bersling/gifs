@@ -6,19 +6,11 @@
     Gifs
   </h1>
   
-  <app-task type="mc"
-            title="Multiple Choice Task">
-  </app-task>
-  
-  <app-task type="sc"
-            title="Single Choice Task">
-  </app-task>
-  
-  <app-task type="dnd"
-            title="Drag and Drop Task">
-  </app-task>
-
-
-
+  <div *ngFor="let task of tasks">
+    <app-task [type]="task.type"
+              [description]="task.description"
+              [title]="task.title">
+    </app-task>
+  </div>
 
 </div>

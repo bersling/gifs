@@ -6,6 +6,8 @@
   </div>
   <div class="task-body">
     
+    <div class="description" [innerHtml]=description></div>
+    
     <app-mc *ngIf="type === 'mc'"></app-mc>
     
     <app-sc *ngIf="type === 'sc'"></app-sc>
@@ -13,4 +15,5 @@
     <app-dnd *ngIf="type === 'dnd'"></app-dnd>
 
   </div>
+  <app-task-footer></app-task-footer>
 </div>

@@ -1,0 +1,14 @@
+<div class="task-footer">
+  
+  <div *ngIf="submitted" class="center">
+    <div class="correct">Correct!</div>
+    <div>
+      1 Point
+    </div>
+  </div>
+  
+  <div class="submit-button" *ngIf="!submitted">
+    <button md-raised-button (click)="submit()">Submit</button>
+  </div>
+
+</div>

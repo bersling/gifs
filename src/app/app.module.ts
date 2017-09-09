@@ -9,6 +9,7 @@ import { TaskComponent } from './task/task.component';
 import { DndComponent } from './dnd/dnd.component';
 import {FormsModule} from '@angular/forms';
 import { ScComponent } from './sc/sc.component';
+import { TaskFooterComponent } from './task-footer/task-footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ScComponent } from './sc/sc.component';
     McComponent,
     TaskComponent,
     DndComponent,
-    ScComponent
+    ScComponent,
+    TaskFooterComponent
   ],
   imports: [
     BrowserModule,
