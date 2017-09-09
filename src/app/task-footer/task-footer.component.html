@@ -1,14 +1,14 @@
 <div class="task-footer">
   
-  <div *ngIf="submitted" class="center">
+  <div *ngIf="props.isSubmitted != true" class="submit-button">
+    <button md-raised-button (click)="submit()">Submit</button>
+  </div>
+  
+  <div *ngIf="props.isSubmitted" class="center">
     <div class="correct">Correct!</div>
     <div>
       1 Point
     </div>
-  </div>
-  
-  <div class="submit-button" *ngIf="!submitted">
-    <button md-raised-button (click)="submit()">Submit</button>
   </div>
 
 </div>

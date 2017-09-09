@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskFooterComponent implements OnInit {
 
-  submitted;
+  props = {
+    isSubmitted: false
+  };
 
   constructor() { }
 
@@ -15,7 +17,7 @@ export class TaskFooterComponent implements OnInit {
   }
 
   submit() {
-    this.submitted = true;
+    this.props.isSubmitted = true;
   }
 
 
