@@ -33,11 +33,15 @@ export class AppComponent {
     title: 'Solution Field'
   }, {
     type: 'gap',
-    description: 'Fülle die Lücken mit den richtigen Anworten.',
+    description: `<div>Fülle die Lücken mit den richtigen Anworten.
+    <br><br>
+    <img src="http://www.mathe-online.at/materialien/stefanie.schrei/files/Hot_Potatoes/rw_dreieck.png" height=200px alt=""></div>`,
     title: 'gap'
   }, {
     type: 'dropdown',
-    description: 'Wähle die richtige Antwort.',
+    description: `<div>Wähle die richtige Antwort.
+    <br><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Integral_as_region_under_curve.svg/1200px-Integral_as_region_under_curve.svg.png" height=200px alt=""></div>`,
     title: 'dropdown'
   }, {
     type: 'linfun',
