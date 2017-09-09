@@ -3,7 +3,10 @@ import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import {MdButtonModule, MdCheckboxModule, MdInputModule, MdRadioModule, MdSelectModule} from '@angular/material';
+import {
+  MdButtonModule, MdCardModule, MdCheckboxModule, MdInputModule, MdRadioModule,
+  MdSelectModule
+} from '@angular/material';
 import { McComponent } from './mc/mc.component';
 import { TaskComponent } from './task/task.component';
 import { DndComponent } from './dnd/dnd.component';
@@ -38,7 +41,8 @@ import { GapComponent } from './gap/gap.component';
     FormsModule,
     MdInputModule,
     DragulaModule,
-    MdSelectModule
+    MdSelectModule,
+    MdCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
