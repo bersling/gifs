@@ -1,0 +1,15 @@
+.task-footer {
+    background: #f0f0f0;
+    padding: 10px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.correct {
+    font-weight: 700;
+    color: darkcyan;
+}
+

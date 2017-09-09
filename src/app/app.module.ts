@@ -3,13 +3,18 @@ import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import {MdButtonModule, MdCheckboxModule, MdRadioModule} from '@angular/material';
+import {MdButtonModule, MdCheckboxModule, MdInputModule, MdRadioModule} from '@angular/material';
 import { McComponent } from './mc/mc.component';
 import { TaskComponent } from './task/task.component';
 import { DndComponent } from './dnd/dnd.component';
 import {FormsModule} from '@angular/forms';
 import { ScComponent } from './sc/sc.component';
+<<<<<<< HEAD
 import { TfComponent } from './tf/tf.component';
+=======
+import { TaskFooterComponent } from './task-footer/task-footer.component';
+import { SfComponent } from './sf/sf.component';
+>>>>>>> d5883f44d4ec7f057a75271bbeb11e2693f98b07
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { TfComponent } from './tf/tf.component';
     TaskComponent,
     DndComponent,
     ScComponent,
+<<<<<<< HEAD
     TfComponent
+=======
+    TaskFooterComponent,
+    SfComponent
+>>>>>>> d5883f44d4ec7f057a75271bbeb11e2693f98b07
   ],
   imports: [
     BrowserModule,
@@ -26,7 +36,8 @@ import { TfComponent } from './tf/tf.component';
     MdButtonModule,
     MdCheckboxModule,
     MdRadioModule,
-    FormsModule
+    FormsModule,
+    MdInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
