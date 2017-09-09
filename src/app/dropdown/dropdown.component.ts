@@ -14,8 +14,8 @@ export class DropdownComponent implements OnInit {
   
     foods = [
       {value: 'steak-0', viewValue: 'vom Funktionsgraph'},
-      {value: 'pizza-1', viewValue: 'von der X-Achse'},
-      {value: 'tacos-2', viewValue: 'von der Y-Achse'}
+      {value: 'pizza-1', viewValue: 'von der x-Achse'},
+      {value: 'tacos-2', viewValue: 'von der y-Achse'}
     ];
   
 

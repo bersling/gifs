@@ -11,31 +11,33 @@ export class AppComponent {
 
   tasks = [{
     type: 'mc',
-    description: `<div>Blabla</div>`,
+    description: `<div>$\\frac{4}{3}$ ist dasselbe wie</div>`,
     title: 'Multiple Choice'
   }, {
     type: 'sc',
-    description: `<div>blabla $\\frac a b = c$<br><img src="https://i.pinimg.com/736x/d6/b4/28/d6b4282382f9ff05532442e47c981bb2--terrace-garden-landscaping.jpg" alt=""></div>`,
+    description: `<div>Der Garten von Familie Beckmann liegt an einem Hang. Er besteht aus vier Terrassen, die durch Treppen verbunden werden sollen. Alle Stufen sollen gleich hoch werden. Wie hoch kann eine Stufe höchstens werden?
+    <br><br>
+    <img src="https://www.taskbase.com/api/file?id=BgFaKhVkcRkZd" height=200px alt=""></div>`,
     title: 'Single Choice'
   }, {
     type: 'tf',
-    description: 'blabla',
+    description: 'Entscheide ob die Aussagen richtig oder falsch sind.',
     title: 'True / False'
   }, {
     type: 'dnd',
     description: 'Drag and drop',
-    title: 'Drag and drop'
+    title: 'Ziehe die Feleder an die richtige Position.'
   }, {
     type: 'sf',
-    description: 'Blabla',
+    description: 'Gib die Funktion an, welche entlang der x-Achse verläuft.',
     title: 'Solution Field'
   }, {
     type: 'gap',
-    description: 'gap',
+    description: 'Fülle die Lücken mit den richtigen Anworten.',
     title: 'gap'
   }, {
     type: 'dropdown',
-    description: 'dropdown',
+    description: 'Wähle die richtige Antwort.',
     title: 'dropdown'
   }, {
     type: 'linfun',

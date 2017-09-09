@@ -20,16 +20,16 @@ export class TfComponent implements OnInit {
   ];
 
   answers = [{
-    descr: 'blabla',
+    descr: '9 ist eine Primzahl',
     answer: undefined
   }, {
-    descr: 'blabla',
+    descr: 'Jede Primzahl ist ungerade',
     answer: undefined
   }, {
-    descr: 'blauss',
+    descr: '2 ist eine Primzahl',
     answer: undefined
   }, {
-    descr: 'blabla',
+    descr: 'Jede Primzahl ist gerade',
     answer: undefined
   }];
 
