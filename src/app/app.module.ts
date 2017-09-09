@@ -9,9 +9,13 @@ import { TaskComponent } from './task/task.component';
 import { DndComponent } from './dnd/dnd.component';
 import {FormsModule} from '@angular/forms';
 import { ScComponent } from './sc/sc.component';
+import { TfComponent } from './tf/tf.component';
 import { TaskFooterComponent } from './task-footer/task-footer.component';
 import { SfComponent } from './sf/sf.component';
 import {DragulaModule} from 'ng2-dragula';
+import { DropdownComponent } from './dropdown/dropdown.component';
+import { GapComponent } from './gap/gap.component';
+
 
 @NgModule({
   declarations: [
@@ -20,8 +24,11 @@ import {DragulaModule} from 'ng2-dragula';
     TaskComponent,
     DndComponent,
     ScComponent,
+    SfComponent,
+    TfComponent,
     TaskFooterComponent,
-    SfComponent
+    DropdownComponent,
+    GapComponent,
   ],
   imports: [
     BrowserModule,

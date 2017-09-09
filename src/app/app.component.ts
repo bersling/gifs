@@ -29,6 +29,14 @@ export class AppComponent {
     type: 'sf',
     description: 'Blabla',
     title: 'Solution Field'
+  }, {
+    type: 'gap',
+    description: 'gap',
+    title: 'gap'
+  }, {
+    type: 'dropdown',
+    description: 'dropdown',
+    title: 'dropdown'
   }];
 
 

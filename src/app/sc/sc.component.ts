@@ -10,10 +10,10 @@ export class ScComponent implements OnInit {
   favoriteSeason: string;
 
   seasons = [
-    'Winter',
-    'Spring',
-    'Summer',
-    'Autumn',
+    '12 cm',
+    '16 cm',
+    '19 cm',
+    '21 cm',
   ];
 
   constructor() { }
