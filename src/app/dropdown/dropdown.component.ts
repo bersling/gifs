@@ -9,6 +9,16 @@ export class DropdownComponent implements OnInit {
 
   constructor() { }
 
+
+  selectedValue: string;
+  
+    foods = [
+      {value: 'steak-0', viewValue: 'vom Funktionsgraph'},
+      {value: 'pizza-1', viewValue: 'von der X-Achse'},
+      {value: 'tacos-2', viewValue: 'von der Y-Achse'}
+    ];
+  
+
   ngOnInit() {
   }
 
