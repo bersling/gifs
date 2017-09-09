@@ -35,7 +35,7 @@ td.right-col {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 15px 30px 15px;
+    border-width: 0 30px 30px 30px;
     border-color: transparent transparent #f0f0f0 transparent;
     margin-bottom: -10px;
 }
