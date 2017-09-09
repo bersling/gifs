@@ -12,9 +12,32 @@ export class TfComponent implements OnInit {
   answer3;
   answer4;
 
+  seasons = [
+    'Winter',
+    'Spring',
+    'Summer',
+    'Autumn',
+  ];
+
+  answers = [{
+    descr: 'blabla',
+    answer: undefined
+  }, {
+    descr: 'blabla',
+    answer: undefined
+  }, {
+    descr: 'blauss',
+    answer: undefined
+  }, {
+    descr: 'blabla',
+    answer: undefined
+  }];
+
+
   constructor() { }
 
   ngOnInit() {
   }
+
 
 }
