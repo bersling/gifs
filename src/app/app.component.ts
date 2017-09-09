@@ -43,8 +43,6 @@ export class AppComponent {
     title: 'Plot linear function'
   }];
 
-
-
   constructor() {
     const mathjaxer = () => {
       setTimeout(function() {

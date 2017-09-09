@@ -15,8 +15,6 @@ import { SfComponent } from './sf/sf.component';
 import {DragulaModule} from 'ng2-dragula';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { GapComponent } from './gap/gap.component';
-import { LinfunComponent } from './linfun/linfun.component';
-
 
 @NgModule({
   declarations: [
@@ -29,8 +27,7 @@ import { LinfunComponent } from './linfun/linfun.component';
     TfComponent,
     TaskFooterComponent,
     DropdownComponent,
-    GapComponent,
-    LinfunComponent,
+    GapComponent
   ],
   imports: [
     BrowserModule,
