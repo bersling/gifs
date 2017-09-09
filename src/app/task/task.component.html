@@ -1,0 +1,16 @@
+<div class="task">
+  <div class="task-header">
+    <div class="task-title">
+      {{title}}
+    </div>
+  </div>
+  <div class="task-body">
+    
+    <app-mc *ngIf="type === 'mc'"></app-mc>
+    
+    <app-sc *ngIf="type === 'sc'"></app-sc>
+    
+    <app-dnd *ngIf="type === 'dnd'"></app-dnd>
+
+  </div>
+</div>
