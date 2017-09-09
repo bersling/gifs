@@ -1,0 +1,9 @@
+md-select{
+width: 300px;
+padding-left: 7px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column-reverse;
+}

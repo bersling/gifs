@@ -1,15 +1,19 @@
 .task-footer {
     background: #f0f0f0;
     padding: 10px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .submit-button {
-    display: flex;
-    justify-content: flex-end;
+
 }
 
-.correct {
+.points {
+    margin: 0;
     font-weight: 700;
-    color: darkcyan;
+    color: black;
 }
 
