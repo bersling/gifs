@@ -11,6 +11,7 @@ import {FormsModule} from '@angular/forms';
 import { ScComponent } from './sc/sc.component';
 import { TaskFooterComponent } from './task-footer/task-footer.component';
 import { SfComponent } from './sf/sf.component';
+import {DragulaModule} from 'ng2-dragula';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SfComponent } from './sf/sf.component';
     MdCheckboxModule,
     MdRadioModule,
     FormsModule,
-    MdInputModule
+    MdInputModule,
+    DragulaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
