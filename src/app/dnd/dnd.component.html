@@ -2,45 +2,51 @@
   
   <table>
     <tr>
-      <td>
+      <td class="left-col">
         Jede ganze Zahl ist positiv.
       </td>
-      <td [dragula]='"first-bag"'>
+      <td [dragula]='"first-bag"' class="right-col">
       
       </td>
     </tr>
     <tr>
-      <td>
+      <td class="left-col">
         Es gibt keine positive ganze Zahl.
       </td>
-      <td [dragula]='"first-bag"'>
+      <td [dragula]='"first-bag"' class="right-col">
       
       </td>
     </tr>
     <tr>
-      <td>
+      <td class="left-col">
         Nicht jede ganze Zahl ist positiv.
       </td>
-      <td [dragula]='"first-bag"'>
+      <td [dragula]='"first-bag"' class="right-col">
       
       </td>
     </tr>
     <tr>
-      <td>
+      <td class="left-col">
         Die Aussage, dass es keine ganze positive Zahl gibt, ist falsch.
       </td>
-      <td [dragula]='"first-bag"'>
+      <td [dragula]='"first-bag"' class="right-col">
       
       </td>
     </tr>
   </table>
   
-  <div class='wrapper'>
-    <div class='container' [dragula]='"first-bag"'>
-      <div>Es gibt eine ganze Zahl, die nicht positiv ist.</div>
-      <div>Eine Zahl, die positiv ist, kann keine ganze Zahl sein.</div>
-      <div>Es gibt keine ganze Zahl, die nicht positiv wäre.</div>
-      <div>Es gibt eine positive ganze Zahl.</div>
-    </div>
+  
+  <div class="center">
+    <div class="triangle" style="display:inline-block"></div>
   </div>
+  
+  
+  <div class='container' [dragula]='"first-bag"' style="height: 206px; width: 580px">
+    <div>Es gibt eine ganze Zahl, die nicht positiv ist.</div>
+    <div>Eine Zahl, die positiv ist, kann keine ganze Zahl sein.</div>
+    <div>Es gibt keine ganze Zahl, die nicht positiv wäre.</div>
+    <div>Es gibt eine positive ganze Zahl.</div>
+  </div>
+  
+
 </div>

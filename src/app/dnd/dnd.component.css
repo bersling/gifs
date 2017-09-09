@@ -1,19 +1,15 @@
-.wrapper {
-    display: table;
-}
+
 .container {
+    background: #f0f0f0;
     display: table-cell;
-    background-color: rgba(255, 255, 255, 0.2);
-    width: 50%;
+    border-radius: 3px;
 }
-.container:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.2);
-}
+
 .container div,
 .gu-mirror {
     margin: 10px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 1);
     transition: opacity 0.4s ease-in-out;
 }
 .container div {
@@ -28,9 +24,18 @@
     cursor: -webkit-grabbing;
 }
 
-td {
-    border: 1px solid gray;
+td.right-col {
+    border: 1px dashed #ccc;
     padding: 10px;
     height: 75px;
     width: 300px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 30px 15px;
+    border-color: transparent transparent #f0f0f0 transparent;
+    margin-bottom: -10px;
 }
